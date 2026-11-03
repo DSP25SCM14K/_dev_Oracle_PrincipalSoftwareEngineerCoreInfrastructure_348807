@@ -26,3 +26,7 @@ body{background-color:#080f17;background-image:linear-gradient(180deg,rgba(5,12,
 /* Keep the custom image as an actual background layer under the hero content for reliable, visible rendering. */
 .hero::before{display:block;inset:0;z-index:0;opacity:.72;background-image:linear-gradient(90deg,rgba(7,12,19,.44),rgba(7,12,19,.12) 52%,rgba(7,12,19,.32)),url("api-platform-hero.jpg");background-position:center 44%;background-size:cover;mask-image:none}.hero-background{display:none}.hero-copy,.hero-art{position:relative;z-index:1}.hero-art{background:linear-gradient(145deg,rgba(8,16,24,.55),rgba(10,16,24,.24))}
 @media(prefers-reduced-motion:reduce){.hero-background{animation:none}}
+
+/* Ensure the hero background and first-view copy remain visible in the static Pages render. */
+.hero{background-image:linear-gradient(90deg,rgba(7,12,19,.52),rgba(7,12,19,.24) 48%,rgba(7,12,19,.42)),url("api-platform-hero.jpg");background-size:cover;background-position:center 45%;}
+.hero .reveal{opacity:1!important;transform:none!important}
