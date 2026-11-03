@@ -16,4 +16,4 @@ The concept map is illustrative rather than Oracle's internal architecture or li
 
 Repository: `DSP25SCM14K/_dev_Oracle_PrincipalSoftwareEngineerCoreInfrastructure_348807`
 
-Enable Pages from the `main` branch root. The static site has no build step.
+Pages is configured to deploy from the `main` branch root. The static site has no build step. Live site: https://dsp25scm14k.github.io/_dev_Oracle_PrincipalSoftwareEngineerCoreInfrastructure_348807/
